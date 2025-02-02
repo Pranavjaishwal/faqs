@@ -1,0 +1,28 @@
+# Core Dependencies
+Django==4.2.7
+djangorestframework==3.14.0
+django-ckeditor==6.7.0
+
+# Caching
+redis==5.0.1
+django-redis==5.3.0
+
+# Translation
+googletrans==4.0.0-rc1
+
+# Testing
+pytest==7.4.2
+pytest-django==4.7.0
+
+# Linting
+flake8==6.1.0
+
+# Database (Optional: If using PostgreSQL)
+psycopg2==2.9.9
+
+# Deployment (Optional: If using Docker)
+gunicorn==21.2.0
+whitenoise==6.6.0
+
+# Environment Management (Optional: If using python-decouple)
+python-decouple==3.8

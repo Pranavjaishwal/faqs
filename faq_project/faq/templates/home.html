@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FAQ Management System</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f9;
+        color: #333;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+      }
+      .container {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        max-width: 600px;
+        width: 100%;
+        text-align: center;
+      }
+      h1 {
+        color: #4caf50;
+        margin-bottom: 20px;
+      }
+      p {
+        line-height: 1.6;
+        margin-bottom: 20px;
+      }
+      .details {
+        text-align: left;
+        background-color: #f9f9f9;
+        padding: 15px;
+        border-radius: 8px;
+        margin-top: 20px;
+      }
+      .details h2 {
+        color: #333;
+        margin-bottom: 10px;
+      }
+      .details ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      .details ul li {
+        margin-bottom: 10px;
+      }
+      .details ul li strong {
+        color: #4caf50;
+      }
+      .developer {
+        margin-top: 20px;
+        font-size: 1.2em;
+        color: #555;
+      }
+      .developer strong {
+        color: #4caf50;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to the FAQ Management System</h1>
+      <p>
+        This project is a Django-based FAQ management system that supports
+        multi-language translations, a WYSIWYG editor, and a REST API for
+        managing FAQs. It also includes caching for improved performance and a
+        user-friendly admin interface.
+      </p>
+      <div class="details">
+        <h2>Project Details</h2>
+        <ul>
+          <li>
+            <strong>Admin Panel:</strong>
+            <a href="/admin/">http://127.0.0.1:8000/admin/</a>
+          </li>
+          <li>
+            <strong>API Endpoint:</strong>
+            <a href="/api/faqs/">http://127.0.0.1:8000/api/faqs/</a>
+          </li>
+          <li><strong>Development Server:</strong> Running on port 8000</li>
+          <li><strong>Redis Cache:</strong> Running on port 6379</li>
+        </ul>
+      </div>
+      <div class="developer">Developed by: <strong>Pranav Kumar</strong></div>
+    </div>
+  </body>
+</html>
