@@ -26,7 +26,7 @@ Follow these steps to set up the project locally.
 ### Steps
 
 1. Clone the repository:
-   git clone (https://github.com/ArmanKhan1522/faqs_project.git)
+   git clone (https://github.com/Pranavjaishwal/faqs.git)
    cd faq_project
 
 2. Create a virtual environment:
