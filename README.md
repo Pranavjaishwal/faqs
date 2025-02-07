@@ -95,7 +95,7 @@ License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 Developer
-Developed by: ARMAN KHAN
+Developed by: Pranav Kumar
 
 Key Sections in the README 1. Project Overview: A brief description of the project.
 
